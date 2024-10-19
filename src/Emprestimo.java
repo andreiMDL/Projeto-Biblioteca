@@ -5,6 +5,7 @@ public class Emprestimo {
 
     //<editor-fold desc="Atributos">
 
+    private int idEmprestimo;
     private LocalDate dataEmprestimo;
     private LocalDate dataDevolucao;
 

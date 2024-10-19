@@ -1,6 +1,7 @@
 public class Usuario {
 
     //<editor-fold desc="Atributos">
+    private int id;
     private String nome;
     private String email;
     //</editor-fold>
@@ -11,6 +12,14 @@ public class Usuario {
     //</editor-fold>
 
     //<editor-fold desc="Getters and Setters">
+    public int getId(){
+        return id;
+    }
+
+    public void setId(){
+        this.id = id;
+    }
+
     public String getNome() {
         return nome;
     }
