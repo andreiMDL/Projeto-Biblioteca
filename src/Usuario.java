@@ -16,7 +16,7 @@ public class Usuario {
         return id;
     }
 
-    public void setId(){
+    public void setId(int idCliente){
         this.id = id;
     }
 
